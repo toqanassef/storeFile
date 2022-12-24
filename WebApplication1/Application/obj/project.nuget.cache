@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Il+8PnyZ5CpdNA8rO7vdiBO4MkPJny25mIvq4fqkJLCaOfAzqA6TWRcyqlN79xHsRuIcZaZ8NBwphYPnObLkDA==",
+  "success": true,
+  "projectFilePath": "F:\\TOQA\\pioneers\\WebApplication1\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Toqa\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Toqa\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Toqa\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
+    "C:\\Users\\Toqa\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

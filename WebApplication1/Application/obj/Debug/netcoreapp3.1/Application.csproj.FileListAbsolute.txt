@@ -1,0 +1,10 @@
+F:\TOQA\pioneers\WebApplication1\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+F:\TOQA\pioneers\WebApplication1\Application\bin\Debug\netcoreapp3.1\Application.dll
+F:\TOQA\pioneers\WebApplication1\Application\bin\Debug\netcoreapp3.1\Application.pdb
+F:\TOQA\pioneers\WebApplication1\Application\obj\Debug\netcoreapp3.1\Application.csproj.AssemblyReference.cache
+F:\TOQA\pioneers\WebApplication1\Application\obj\Debug\netcoreapp3.1\Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\TOQA\pioneers\WebApplication1\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+F:\TOQA\pioneers\WebApplication1\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+F:\TOQA\pioneers\WebApplication1\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+F:\TOQA\pioneers\WebApplication1\Application\obj\Debug\netcoreapp3.1\Application.dll
+F:\TOQA\pioneers\WebApplication1\Application\obj\Debug\netcoreapp3.1\Application.pdb

@@ -1,0 +1,54 @@
+
+<form #storeForm2="ngForm" (ngSubmit)="save()" class="mb-2" role="form" >
+    <legend>Get Store Data</legend>
+
+    <div class="form-group">
+        <label for="fiel">File</label><span class="text-danger" *ngIf="file.errors">*</span>
+        <input (change)="this.onFilechange($event)" ngModel name="file" required #file="ngModel"  type="file" accept=".csv"
+         class="form-control file-upload" id="file" >
+    </div>
+
+    <div class="form-group">
+        <label for="fromdate">From Date</label><span class="text-danger" *ngIf="fromDate.errors">*</span>
+        <input [(ngModel)]="model.fromDate" name="fromDate" #fromDate="ngModel" required  type="date" class="form-control" id="fromDate" >
+    </div>    
+
+    <div class="form-group">
+        <label for="todate">To Date</label><span class="text-danger" *ngIf="toDate.errors">*</span>
+        <input [(ngModel)]="model.toDate" name="toDate" #toDate="ngModel" required  type="date" class="form-control" id="todate" >
+    </div>
+
+    <div class="form-group"> 
+        <label for="goodId">Good Id</label><span class="text-danger" *ngIf="good.errors">*</span>
+        <input [(ngModel)]="model.goodId" name="goodId" #good="ngModel" required  type="number" class="form-control" id="goodId" >
+    </div>
+
+    
+
+    <button type="submit" class="btn btn-primary" [disabled]="storeForm2.invalid">Submit</button>
+</form>
+
+
+<table class="table table-hover table-striped">
+    <thead>
+        <tr>
+            <th>Good Id</th>
+            <th>Transaction Id</th>
+            <th>Transaction Date</th>
+            <th>Amount</th>
+            <th>Direction</th>
+            <th>Comment</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of dataList">
+            <td>{{item.goodId}}</td>
+            <td>{{item.transactionId}}</td>
+            <td>{{item.transactionDate | date}}</td>
+            <td>{{item.amount}}</td>
+            <td>{{item.direction}}</td>
+            <td>{{item.comment}}</td>
+        </tr>
+    </tbody>
+</table>
+

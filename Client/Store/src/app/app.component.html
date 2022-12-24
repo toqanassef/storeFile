@@ -1,0 +1,25 @@
+<!-- Header -->
+<nav class="navbar navbar-dark bg-dark justify-content-between">
+  <a class="navbar-brand">{{title}}</a>
+  <div class="form-inline">
+    <img src="../assets/images/s.jpg" width="50" height="30" alt="">
+  </div>
+</nav>
+
+<app-store-data-list (onChangeData)="FooterData($event)"></app-store-data-list>
+
+<footer>
+  <!-- Footer Data -->
+  <div  class="row text-center text-white mt-2" style="background-color: rgba(3, 3, 3, 0.566);">
+    <span class="col">Transaction Number :  {{tnumber}}</span>
+    <span class="col">Total Amount :  {{total}}</span>
+    <span class="col">Remaining Amount :  {{remain}}</span>
+  </div>
+
+  <!-- Copyright -->
+  <div class="text-center p-3 text-white" style="background-color: rgba(3, 3, 3, 0.566);">
+    © 2022 Copyright : Toqa Nassef
+  </div>
+
+</footer>
+
